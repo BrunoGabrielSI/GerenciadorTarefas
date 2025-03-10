@@ -11,4 +11,14 @@ public class Tarefa {
         this.descricao = descricao;
         this.concluida = false;
     }
+
+    public int getId(){
+        return id;
+    }
+    public String getDescricao(){
+        return descricao;
+    }
+    public boolean isConcluida(){
+        return concluida;
+    }
 }

@@ -27,4 +27,5 @@ public class ControleTarefa {
     public ArrayList<Tarefa> getTarefas() {
         return this.tarefas;
     }
+
 }
