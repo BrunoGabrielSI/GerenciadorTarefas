@@ -28,4 +28,15 @@ public class ControleTarefa {
         return this.tarefas;
     }
 
+    public Tarefa buscarTarefaPorId(int id){
+        for (Tarefa tarefa : tarefas){
+            if (tarefa.getId() == id){
+                return tarefa;
+            }
+        }
+        return null;
+    }
+
+
+
 }
